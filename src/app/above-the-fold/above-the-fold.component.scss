@@ -1,0 +1,104 @@
+.aboveTheFoldSection {
+    background-color: rgb(20, 29, 47);
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.textSection {
+    display: flex;
+
+    .transForm90 {
+        display: flex;
+        color: white;
+        transform: rotate(-90deg);
+        font-size: 80px;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+
+    h1 {
+        font-size: 110px;
+        color: white;
+        margin: 0;
+    }
+
+    span {
+        font-size: 64px;
+        color: rgb(75, 71, 255);
+    }
+
+}
+
+.letsTalkSection {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    button {
+        background-color: rgb(0, 190, 232);
+        color: white;
+        padding: 15px 32px;
+        border: none;
+        border-radius: 10px;
+        font-size: 20px;
+
+
+        &:hover {
+            background-color: rgb(75, 71, 255);
+            cursor: pointer;
+        }
+    }
+}
+
+.scrollDownSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+
+    p {
+        font-size: 20px;
+        color: white;
+        text-decoration: none;
+        transform: rotate(90deg);
+        margin: 0;
+        padding-right: 10vw;
+
+        img {
+            width: 16px;
+            height: 16px;
+            transform: rotate(-90deg);
+        }
+
+    }
+}
+
+.socialSection {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 42px;
+    background-color: rgb(20, 29, 47);
+    width: 100vw;
+    padding-bottom: 10vh;
+
+    .blue-line {
+        border-top: 3px solid rgb(0, 190, 232);
+        border-radius: 10px;
+        width: 5%; 
+      }
+
+    img {
+        height: 25px;
+        width: 25px;
+
+    }
+
+}
