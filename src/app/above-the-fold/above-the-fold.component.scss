@@ -54,28 +54,39 @@
     }
 }
 
+
+
+.socialAndScrollSection {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    background-color: rgb(20, 29, 47);
+}
+
 .scrollDownSection {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    right: 0;
-
-    p {
-        font-size: 20px;
+    flex-direction: column;
+    padding-right: 5vw;
+    
+    
+    span{
+        display: flex;
+        align-items: center;
         color: white;
-        text-decoration: none;
         transform: rotate(90deg);
-        margin: 0;
-        padding-right: 10vw;
-
-        img {
-            width: 16px;
-            height: 16px;
-            transform: rotate(-90deg);
-        }
-
+        white-space: nowrap;
+        
     }
+
+}
+
+.arrow {
+    width: 10px;
+    height: 10px;
+    transform: rotate(-90deg);
+    padding-top: 10px;
+    
+
 }
 
 .socialSection {
@@ -85,7 +96,6 @@
     justify-content: flex-start;
     align-items: center;
     gap: 42px;
-    background-color: rgb(20, 29, 47);
     width: 100vw;
     padding-bottom: 10vh;
 
@@ -99,6 +109,11 @@
         height: 25px;
         width: 25px;
 
+        &:hover {
+            transform: scale(1.5);
+        }
+
     }
 
 }
+
